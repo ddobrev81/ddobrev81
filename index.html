@@ -3,122 +3,180 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portoflio site try1</title>
+    <title>Dodo's Portfolio</title>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 </head>
 <body>
-<nav class="navbar is-fixed-top" style="border-bottom: solid 5px" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top" style="border-bottom: solid 5px"
+     role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-
         <a class="navbar-item" href="https://ddobrev81.github.io/ddobrev81/">
             <img src="assets/img/dodo-logo.png">
         </a>
-
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" class="navbar-burger" aria-label="menu"
+           aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
-
     <div id="navbarBasicExample" class="navbar-menu">
-
         <div class="navbar-end">
             <div class="navbar-item">
-                <a class="navbar-item">
+                <a href="#section-skill" class="navbar-item">
                     Skills
                 </a>
-                <a class="navbar-item">
+                <a href="#section-projects" class="navbar-item">
                     Projects
                 </a>
-                <a class="navbar-item">
+                <a href="#section-education" class="navbar-item">
                     Education
                 </a>
-                <a class="navbar-item">
+                <a href="#section-history" class="navbar-item">
                     Professional history
                 </a>
-<!--                <div class="buttons">-->
-<!--                    <a class="button is-primary">-->
-<!--                        <strong>Sign up</strong>-->
-<!--                    </a>-->
-<!--                    <a class="button is-light">-->
-<!--                        Log in-->
-<!--                    </a>-->
-<!--                </div>-->
             </div>
         </div>
     </div>
 </nav>
 <div class="columns">
-    <div class="column is-half">
-        <section class="hero is-medium">
-            <div class="hero-body">
+    <div class="column is-one-quarter"></div>
+    <div class="column is-one-quarter">
+        <section class="hero is-medium ">
+            <div class="hero-body pt-9 pr-2">
                 <p class="text">
                     Hey
                 </p>
                 <p class="title is-centered">
-                    I'm Dodo
+                    I'm Dobrin Dobrev
                 </p>
-                <p class="subtitle">
-                    PHP Full-stack developer
-                    Senior Drupal architect
+                <p class="subtitle ">
+                    PHP Full-stack developer / Drupal Architect
+                </p>
+                <button class="button">
+                    <span class="icon">
+                        <ion-icon name="chatbox" size="large"></ion-icon>
+                    </span>
+                    <span>
+                        <a href="mailto:ddobrev81@gmail.com">Say Hi!</a>
+                    </span>
+                </button>
+                <button class="button">
+                        <span class="icon">
+                            <ion-icon name="logo-linkedin"
+                                      size="large"></ion-icon>                    </span>
+                    <span>
+                            <a href="https://github.com/ddobrev81">Github</a>
+                        </span>
+                </button>
+                <button class="button">
+                        <span class="icon">
+                            <ion-icon name="logo-linkedin"
+                                      size="large"></ion-icon>                    </span>
+                    <span>
+                            <a href="https://www.linkedin.com/in/dobrin-dobrev/">Linkedin</a>
+                        </span>
+                </button>
+                <p>
+                <div class="dropdown is-hoverable mt-1">
+                    <div class="dropdown-trigger">
+                        <button class="button" aria-haspopup="true"
+                                aria-controls="dropdown-menu2">
+                            <span class="icon is-small">
+                                <ion-icon name="receipt-outline"></ion-icon>
+                            </span>
+                            <span class="has-text-link">CV</span>
+                            <span class="icon is-small">
+                                <ion-icon
+                                        name="chevron-down-outline"></ion-icon>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-item">
+                                    .pdf
+                                </a>
+                            </div>
+                            <hr class="dropdown-divider">
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-item">
+                                    .doc
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </p>
             </div>
         </section>
     </div>
-    <div class="column is-half">
-        <div class="card m-6">
+    <div class="column is-one-quarter">
+        <div class="card pt-6 m-6" style="box-shadow: none">
             <div class="card-image">
                 <figure class="image">
-                    <img src="assets/img/Dobrin_Dobrev_hires.jpg"
+                    <img class="is-rounded"
+                         src="assets/img/Dobrin_Dobrev_hires.jpg"
                          alt="Placeholder image">
                 </figure>
             </div>
         </div>
     </div>
 </div>
-
-<!--<nav class="breadcrumb" aria-label="breadcrumbs">-->
-<!--    <ul>-->
-<!--        <li>-->
-<!--            <a href="#">-->
-<!--        <span class="icon is-small">-->
-<!--          <i class="fas fa-home" aria-hidden="true"></i>-->
-<!--        </span>-->
-<!--                <span>Bulma</span>-->
-<!--            </a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="#">-->
-<!--        <span class="icon is-small">-->
-<!--          <i class="fas fa-book" aria-hidden="true"></i>-->
-<!--        </span>-->
-<!--                <span>Documentation</span>-->
-<!--            </a>-->
-<!--        </li>-->
-
-<!--    </ul>-->
-<!--</nav>-->
-
 <div class="columns is-centered">
-    <div class="column is-one-fifth is-4">
+    <div class="column is-one-quarter"></div>
+    <div class="column is-one-quarter">
         <div class="m-3">
             <aside class="menu">
                 <ul class="menu-list">
-                    <li><a>MenuLink1</a></li>
-                    <li><a>MenuLink2</a></li>
-                    <li><a>MenuLink3</a></li>
-                    <li><a>MenuLink4</a></li>
+                    <li><a href="#section-skill" class="is-active">Skills</a>
+                    </li>
+                    <li><a href="#section-projects">Projects</a></li>
+                    <li><a href="#section-education">Education</a></li>
+                    <li><a href="#section-history">Professional history</a></li>
                 </ul>
             </aside>
         </div>
     </div>
-    <div class="column is-narrow">
-        <section class="hero is-primary">
+    <div class="column is-one-quarter">
+        <section id="section-skill" class="hero">
             <div class="hero-body">
                 <p class="title">
-                    MenuLink11111111111111111
+                    Skills
+                </p>
+                <p class="subtitle">
+                    Primary subtitle
+                </p>
+            </div>
+        </section>
+        <section id="section-projects" class="hero is-invisible">
+            <div class="hero-body">
+                <p class="title">
+                    Projects
+                </p>
+                <p class="subtitle">
+                    Primary subtitle
+                </p>
+            </div>
+        </section>
+        <section id="section-education" class="hero is-invisible">
+            <div class="hero-body">
+                <p class="title">
+                    Education
+                </p>
+                <p class="subtitle">
+                    Primary subtitle
+                </p>
+            </div>
+        </section>
+        <section id="section-history" class="hero is-invisible">
+            <div class="hero-body">
+                <p class="title">
+                    Professional history
                 </p>
                 <p class="subtitle">
                     Primary subtitle
@@ -126,8 +184,6 @@
             </div>
         </section>
     </div>
-
 </div>
-
 </body>
 </html>
